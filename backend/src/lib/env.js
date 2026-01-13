@@ -1,10 +1,9 @@
 import dotenv from 'dotenv';
-
 dotenv.config();
 
-const ENV = {
-    api_key:process.env.API_key,
-    port:process.env.port
+const ENV ={
+    PORT: process.env.port,
+    DB_URL: process.env.DB_URL
 }
 
 export default ENV;
